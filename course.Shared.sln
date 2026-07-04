@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{2661157A-D318-48EE-8E81-B9EB84B12B42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{780EBFF8-8A3E-467F-886B-972A883CDFE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServicesShared", "ServicesShared", "{64271EA5-F557-4696-A1FB-A0DE6BFEE994}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKernel", "{F2EA5F64-9B14-4063-A798-37071B122818}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8A8F18DD-EFCE-4D9A-9A99-8A779F4782F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{19540622-E997-4669-A8ED-1B6D29B3932F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{253311C7-DEB9-46F2-9F60-E68ED00E6C29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F1231511-0200-4058-8EFF-A250BEAF1DF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Security.API.Main", "Shared.Security.API.Main\Shared.Security.API.Main.csproj", "{D447699E-BF86-41A2-BA68-2C0AFDE985A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D447699E-BF86-41A2-BA68-2C0AFDE985A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D447699E-BF86-41A2-BA68-2C0AFDE985A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D447699E-BF86-41A2-BA68-2C0AFDE985A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D447699E-BF86-41A2-BA68-2C0AFDE985A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{780EBFF8-8A3E-467F-886B-972A883CDFE6} = {2661157A-D318-48EE-8E81-B9EB84B12B42}
+		{64271EA5-F557-4696-A1FB-A0DE6BFEE994} = {2661157A-D318-48EE-8E81-B9EB84B12B42}
+		{19540622-E997-4669-A8ED-1B6D29B3932F} = {780EBFF8-8A3E-467F-886B-972A883CDFE6}
+		{253311C7-DEB9-46F2-9F60-E68ED00E6C29} = {780EBFF8-8A3E-467F-886B-972A883CDFE6}
+		{F1231511-0200-4058-8EFF-A250BEAF1DF9} = {780EBFF8-8A3E-467F-886B-972A883CDFE6}
+		{D447699E-BF86-41A2-BA68-2C0AFDE985A1} = {19540622-E997-4669-A8ED-1B6D29B3932F}
+	EndGlobalSection
+EndGlobal
