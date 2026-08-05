@@ -8,6 +8,12 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shared.Security.API.System\Shared.Security.API.System.csproj" />
+    <ProjectReference Include="..\Shared.Security.API.Tenant\Shared.Security.API.Tenant.csproj" />
   </ItemGroup>
 
 </Project>

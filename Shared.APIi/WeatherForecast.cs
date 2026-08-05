@@ -1,4 +1,4 @@
-namespace Shared.Security.API.Main
+namespace Shared.APIi
 {
     public class WeatherForecast
     {

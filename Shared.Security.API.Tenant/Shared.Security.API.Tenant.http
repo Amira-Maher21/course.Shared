@@ -1,0 +1,6 @@
+@Shared.Security.API.Tenant_HostAddress = http://localhost:5147
+
+GET {{Shared.Security.API.Tenant_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
